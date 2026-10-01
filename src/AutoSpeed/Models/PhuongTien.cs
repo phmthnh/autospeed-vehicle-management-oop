@@ -1,4 +1,5 @@
-namespace AutoSpeed.Models;
+namespace AutoSpeed.Models
+{
 
 /// <summary>
 /// Lớp trừu tượng cha — đại diện một phương tiện giao thông.
@@ -77,4 +78,6 @@ public abstract class PhuongTien
     /// <summary>Trả về thông tin cơ bản của phương tiện.</summary>
     public virtual string GetInfo() =>
         $"[{MaPT}] {TenHang} | Năm SX: {NamSanXuat} | Giá gốc: {GiaGoc:N0} VNĐ";
+}
+
 }

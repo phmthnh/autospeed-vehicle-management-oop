@@ -1,4 +1,5 @@
-namespace AutoSpeed.Models;
+namespace AutoSpeed.Models
+{
 
 /// <summary>
 /// Lớp OTo kế thừa PhuongTien.
@@ -67,4 +68,6 @@ public class OTo : PhuongTien
     public override string GetInfo() =>
         base.GetInfo() +
         $" | {SoChoNgoi} chỗ | Động cơ: {DungTichDongCo:F1}L";
+}
+
 }

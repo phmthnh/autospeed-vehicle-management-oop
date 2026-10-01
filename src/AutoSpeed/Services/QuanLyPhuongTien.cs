@@ -1,6 +1,7 @@
 using AutoSpeed.Models;
 
-namespace AutoSpeed.Services;
+namespace AutoSpeed.Services
+{
 
 /// <summary>
 /// Lớp quản lý tập hợp phương tiện giao thông.
@@ -65,4 +66,6 @@ public class QuanLyPhuongTien
 
     /// <summary>Số lượng phương tiện hiện có.</summary>
     public int Count => _danhSach.Count;
+}
+
 }

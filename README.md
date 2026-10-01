@@ -1,7 +1,7 @@
 # 🚗 Hệ thống Quản lý Phương tiện — AutoSpeed Logistics
 
 > **Bài Kiểm Tra 01 — Phần II: Lập trình OOP**
-> Môn: Lập trình C# / .NET | Sinh viên: Phạm Tuấn Thành | Công nghệ: .NET 8 · C# 12
+> Môn: Lập trình C# / .NET | Sinh viên: Phạm Tuấn Thành | Công nghệ: .NET 10.0 · C# 12
 
 ---
 
@@ -24,7 +24,7 @@ autospeed-vehicle-management-oop/
 ├── AutoSpeed.sln
 ├── src/
 │   └── AutoSpeed/
-│       ├── AutoSpeed.csproj          # net8.0, Nullable enable
+│       ├── AutoSpeed.csproj          # net10.0, Nullable enable
 │       ├── Program.cs                # Demo + 5 test case in PASS/FAIL
 │       ├── Models/
 │       │   ├── PhuongTien.cs         # abstract class (Encapsulation + Abstraction)
@@ -143,7 +143,7 @@ classDiagram
 ## 🚀 Cách chạy
 
 ```bash
-# Yêu cầu: .NET 8 SDK trở lên
+# Yêu cầu: .NET 10.0 SDK trở lên
 dotnet run --project src/AutoSpeed
 ```
 
@@ -183,5 +183,6 @@ Mở bằng **Visual Studio 2022**: mở file `AutoSpeed.sln`.
 
 ## 🛠️ Yêu cầu môi trường
 
-- .NET 8 SDK (`dotnet --version` ≥ 8.0)
+- .NET 10.0 SDK (`dotnet --version` ≥ 8.0)
 - Windows / macOS / Linux đều chạy được
+

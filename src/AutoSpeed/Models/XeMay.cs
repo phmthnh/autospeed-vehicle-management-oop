@@ -1,4 +1,5 @@
-namespace AutoSpeed.Models;
+namespace AutoSpeed.Models
+{
 
 /// <summary>
 /// Lớp XeMay kế thừa PhuongTien.
@@ -51,4 +52,6 @@ public class XeMay : PhuongTien
     // ── Override GetInfo ─────────────────────────────────────────────────────
     public override string GetInfo() =>
         base.GetInfo() + $" | Dung tích: {DungTichXylanh}cc";
+}
+
 }
